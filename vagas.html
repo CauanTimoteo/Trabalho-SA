@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/639a640fc0.js" crossorigin="anonymous"></script>
+    <script src="vagas.js"></script>
 </head>
 <body>
     <nav>
@@ -124,7 +125,7 @@
                     </div>
                     <div class="block-gen">
                         <label for="Gênero">Gênero:
-                            <select class="select-gen">
+                            <select class="select-gen" id="Gênero">
                                 <option></option>
                                 <option value="Masculino">Masculino</option>
                                 <option value="Feminino">Feminino</option>
@@ -142,7 +143,7 @@
                     </div>
                     <div class="form-group">
                         <label for="Data de nascimento">Data de nascimento:</label>
-                        <input type="date" name="Data de nascimento" placeholder="Digite sua data de nascimento"
+                        <input type="date" id="DataDeNascimento" placeholder="Digite sua data de nascimento"
                             required>
                     </div>
                     <div class="row">
@@ -151,7 +152,7 @@
                     </div>
                     <div class="block-col">
                         <label for="Grau de instrução">Grau de instrução:
-                            <select class="select-col">
+                            <select class="select-col" id="Ensino">
                                 <option></option>
                                 <option value="Analfabeto">Analfabeto</option>
                                 <option value="Ensino fundamental incompleto">Ensino fundamental incompleto</option>
@@ -166,11 +167,11 @@
                     </div>
                     <div class="row">
                         <label for="Nome do pai">Nome do pai:</label>
-                        <input type="text" id="Nome do pai" placeholder="Nome do seu pai" required>
+                        <input type="text" id="NomeDoPai" placeholder="Nome do seu pai" required>
                     </div>
                     <div class="form-group">
                         <label for="Nome da mãe">Nome da mãe:</label>
-                        <input type="text" id="Nome da mãe" placeholder="Nome da sua mãe" required>
+                        <input type="text" id="NomeDaMãe" placeholder="Nome da sua mãe" required>
                     </div>
                     <div class="form-group">
                         <label for="Telefone">Telefone:</label>

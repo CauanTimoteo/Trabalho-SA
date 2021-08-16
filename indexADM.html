@@ -65,9 +65,8 @@
         <textarea id="Textarea" cols="40" rows="18" placeholder="Digite a descrição do produto"></textarea>
     </div>
 <div class="button-config">
-    <button type="button" id="btn-success" onclick="cadastrarProduto()">Confirmar</button>
-    <button type="button" id="btn-stock" onclick="window.open('estoque.html')">Ver estoque</button>
-    <button type="button" id="btn-nothing"onclick="verEstoque()">Adicionar produtos</button>
+    <button type="button" id="btn-success" onclick="cadastrarProduto('Nome' , 'Marca' , 'Quantidade', 'Textarea')">Confirmar</button>
+    <button type="button" id="btn-stock" onclick="listaDeProdutos('estoque.html', '_self')">Ver estoque</button>
     <button type="reset" id="btn-warning" value="clean">Limpar</button>
 </div>
 </div>
